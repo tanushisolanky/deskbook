@@ -6,6 +6,11 @@ $yellow: #FB9F3C;
 $gray : #8694AA;
 $secondary : #031837;
 $dark-blue : #233550; //label
+$secondary-grey: #adadad;  //registration
+
+// border
+$border-color: #E5E7EA;
+$input-border-color: $border-color; //registartion input
 
 // badges
 $reserved-bg : rgba(234,66,52,0.1);
@@ -23,10 +28,6 @@ $icon-bg: rgba(77,141,237,0.08);
 
 // filter dropdown
 $hover : rgba(40,128,252,0.5);
-
-// search
-$dropdown-1: #1D2D49;
-$dropdown-default: #7C8CA5;
 
 // registration
 $btn-bg : #FF0000;
