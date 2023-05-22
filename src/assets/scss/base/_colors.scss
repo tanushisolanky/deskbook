@@ -2,16 +2,16 @@ $primary : #2880FC;
 $light-grey : #F3F3F5;
 $red : #EA4234;
 $green : #58A65F;
-$yellow: #FB9F3C;
+$secondary: #FB9F3C;
 $gray : #8694AA;
-$secondary : #031837;
+$navy-blue : #031837;
 $dark-blue : #233550; //label
 $secondary-grey: #adadad;  //registration
 $btn-danger: #ff0000;
+$input-bg: #FFFFFF;
 
 // border
 $border-color: #E5E7EA;
-$input-border-color: $border-color; //registartion input
 
 // badges
 $reserved-bg : rgba(234,66,52,0.1);
@@ -30,5 +30,17 @@ $icon-bg: rgba(77,141,237,0.08);
 // filter dropdown
 $hover : rgba(40,128,252,0.5);
 
-// registration
-// $btn-bg : $red;
+
+
+
+// registration page
+// $bs-btn-hover-bg: #b31729;
+$btn-hover-bg: #e7081e;
+$input-focus-color: #ffffff;
+$icon-color: #ffffff;
+$registration-input-bg: rgb(0, 0, 0);
+$input-placeholder-color: #ffffff;
+$input-padding-x: 25px;
+$input-border-color: $border-color; //registartion input
+
+// End: registration page
