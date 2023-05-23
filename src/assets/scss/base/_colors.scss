@@ -7,7 +7,7 @@ $gray : #8694AA;
 $navy-blue : #031837;
 $dark-blue : #233550; //label
 $secondary-grey: #adadad;  //registration
-$btn-danger: #ff0000;
+$danger: #ff0000;
 $input-bg: #FFFFFF;
 
 // border
@@ -31,7 +31,8 @@ $icon-bg: rgba(77,141,237,0.08);
 $hover : rgba(40,128,252,0.5);
 
 
-
+// Form Control
+$input-border-color:#ffffff;
 
 // registration page
 // $bs-btn-hover-bg: #b31729;
@@ -42,5 +43,5 @@ $registration-input-bg: rgb(0, 0, 0);
 $input-placeholder-color: #ffffff;
 $input-padding-x: 25px;
 $input-border-color: $border-color; //registartion input
-
+$input-color: $input-bg;
 // End: registration page
