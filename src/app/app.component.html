@@ -1,69 +1,46 @@
-<!-- registration page -->
-<div class="main-container py-0 py-sm-5">
-    <!-- form-wrapper -->
-    <div class="registration-wrapper d-flex flex-column justify-content-center align-item-center m-auto">
-        <!-- brand :start-->
-        <div class="brand-wrapper text-center">
-
-            <!-- brand-image : start -->
-            <figure>
-                <img src="../assets/images/db-icon.png" alt="logo" />
+<!-- Landing Page -->
+<!-- Nav-bar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary d-flex flex-column justify-content-center">
+    <div class="container-fluid d-flex align-items-center justify-content-around">
+        <!-- Brand container -->
+        <div class="brand-container d-flex align-items-center">
+            <figure class="dblogo ">
+                <img src="../assets/images/db-icon.png" alt="dblogo">
             </figure>
-            <!-- brand-image : end -->
-
-            <!-- brand-title : start -->
-            <h6 class="brand-title mt-3">DeskBook</h6>
-            <!-- brand-title : end -->
+            <h5 class="brand-title d-flex ms-2 mt-2 mb-0 ">DeskBook</h5>
         </div>
-        <!-- brand :end-->
-        <!-- form : start-->
-        <form autocomplete="off">
-
-            <!-- First Name :start -->
-            <div class="form-floating mb-3">
-                <input type="text" class="form-control " id="floatingInput" placeholder="First Name" />
-                <label for="floatingInput" class="label px-1 py-0 badge text-bg-input-bg" >First Name</label>
-                <span  class="icon bi bi-person-fill"></span>
-            </div>
-            <!-- First Name :End -->
-            <!-- Last Name :start -->
-            <div class="form-floating mb-3">
-                <input type="text" class="form-control " id="floatingInput" placeholder="Last Name" />
-                <label for="floatingInput" class="label px-1 py-0 badge text-bg-input-bg" >Last Name</label>
-                <span  class="icon bi bi-person-fill"></span>
-            </div>
-            <!-- Last Name :End -->
-             <!-- Email :start -->
-             <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="Email" />
-                <label for="floatingInput" class="label px-1 py-0 badge text-bg-input-bg" >Email</label>
-                <span  class="icon icon-sm bi bi-envelope-fill"></span>
-            </div>
-            <!-- Email :End -->
-             <!-- Password :start -->
-             <div class="form-floating mb-3">
-                <input type="Password" class="form-control " id="floatingInput" placeholder="Password" />
-                <label for="floatingInput" class="label px-1 py-0 badge text-bg-input-bg" >Password</label>
-                <span  class="icon bi bi-key-fill"></span>
-                <span class=" eye-icon bi bi-eye-slash-fill"></span>
-            </div>
-            <!-- Password :end -->
-            <!--Confirm Password :start -->
-            <div class="form-floating mb-3">
-                <input type="Password" class="form-control" id="floatingInput" placeholder="Confirm Password" />
-                <label for="floatingInput" class="label px-1 py-0 badge text-bg-input-bg" >Confirm Password</label>
-                <span  class="icon bi bi-key-fill"></span>
-                <span class=" eye-icon bi bi-eye-slash-fill"></span>
-            </div>
-            <!-- Confirm Password :End -->
-            <!-- button wrapper : start -->
-            <div class="btn-wrapper d-flex flex-column gap-3 flex-sm-row justify-content-between">
-                <button type="button" class="btn btn-outline-danger">Back to Sign In</button>
-                <button type="button" class="btn btn-danger">Register</button>
-            </div>
-            <!-- button wrapper : End -->
-        </form>
-        <!-- form :end-->
+        <!-- End: Brand container -->
+        <!-- Navbar links -->
+        <div class="navbar-nav flex-row align-items-center d-none d-lg-flex">
+            <a class="nav-link active" aria-current="page" href="#">Book Seat</a>
+            <a class="nav-link active" href="#">Booking History</a>
+            <a class="nav-link active" href="#">Request History</a>
+        </div>
+        <div class="hamburger">
+            <i class="bi bi-list d-block d-lg-none"></i>
+        </div>
+        <!-- End: Navbar links -->
+        <!-- Navbar-buttons -->
+        <div class="nav-icons d-flex gap-1 gap-sm-3">
+            <button class="btn btn-primary " type="button"><img src="../assets/images/search.png" alt="search"></button>
+            <button class="btn btn-primary " type="button"><img src="../assets/images/notification.png"
+                    alt="notification"></button>
+            <button class="btn btn-primary " type="button"><img src="../assets/images/user.png" alt="user"></button>
+            <button class="btn btn-primary1 " type="button">Logout</button>
+        </div>
+        <!-- End: Navbar-buttons -->
+    </div>
+</nav>
+<!-- End: Nav-bar -->
+<!-- Nav-body -->
+<div class="landing-page-wrapper d-flex flex-column align-items-center justify-content-center m-2 m-sm-0">
+    <div class="landing-page-content d-flex flex-column ">
+        <figure>
+            <img src="../assets/images/landing-page.png" alt="landing-page">
+        </figure>
+        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+        <button type="button" class="button p-2 mx-2 p-sm-auto">BOOK YOUR SEAT NOW</button>
     </div>
 </div>
-
+<!-- End: Nav-body -->
+<!-- End: Landing Page -->

@@ -25,7 +25,7 @@
 
 .form-floating {
     position: relative;
-    border: $input-border-color;
+    border: 1px solid $input-border-color;
     border-radius: 6px;
     box-sizing: border-box;
 
@@ -42,8 +42,9 @@
 
         background-color: $registration-input-bg;
         color: $input-color;
-        box-shadow: $input-focus-box-shadow;
+        box-shadow:$input-focus-box-shadow;
         padding: $input-padding;
+        border: none
 
     }
 }
@@ -54,14 +55,20 @@
     left: -16px;
     background-color: $registration-input-bg;
     color: $input-placeholder-color;
-
 }
 
 
-.form-floating:focus-within {
-    border-color: red;
+.form-floating:focus-within{
+    // border-color: red;
+ border: 2px solid $danger;
+
+
 }
 
+.btn-outline-danger:hover{
+    border: $danger;
+    
+}
 // icons
 .icon {
     color: $icon-color;

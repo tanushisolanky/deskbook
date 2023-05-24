@@ -1,7 +1,7 @@
 <!-- registration page -->
-<div class="main-container">
+<div class="main-container py-0 py-sm-5 ">
     <!-- form-wrapper -->
-    <div class="registration-wrapper d-flex flex-column justify-content-center align-item-center m-auto">
+    <div class="registration-wrapper h-100 h-sm-80 d-flex flex-column justify-content-center align-item-center m-auto">
         <!-- brand :start-->
         <div class="brand-wrapper text-center">
 
@@ -21,28 +21,28 @@
 
             <!-- First Name :start -->
             <div class="form-floating mb-3">
-                <input type="text" class="form-control p-0" id="floatingInput" placeholder="First Name" />
+                <input type="text" class="form-control " id="floatingInput" placeholder="First Name" />
                 <label for="floatingInput" class="label px-1 py-0 badge text-bg-input-bg" >First Name</label>
                 <span  class="icon bi bi-person-fill"></span>
             </div>
             <!-- First Name :End -->
             <!-- Last Name :start -->
             <div class="form-floating mb-3">
-                <input type="text" class="form-control p-0" id="floatingInput" placeholder="Last Name" />
+                <input type="text" class="form-control " id="floatingInput" placeholder="Last Name" />
                 <label for="floatingInput" class="label px-1 py-0 badge text-bg-input-bg" >Last Name</label>
                 <span  class="icon bi bi-person-fill"></span>
             </div>
             <!-- Last Name :End -->
              <!-- Email :start -->
              <div class="form-floating mb-3">
-                <input type="email" class="form-control p-0" id="floatingInput" placeholder="Email" />
+                <input type="email" class="form-control" id="floatingInput" placeholder="Email" />
                 <label for="floatingInput" class="label px-1 py-0 badge text-bg-input-bg" >Email</label>
                 <span  class="icon icon-sm bi bi-envelope-fill"></span>
             </div>
             <!-- Email :End -->
              <!-- Password :start -->
              <div class="form-floating mb-3">
-                <input type="Password" class="form-control p-0" id="floatingInput" placeholder="Password" />
+                <input type="Password" class="form-control " id="floatingInput" placeholder="Password" />
                 <label for="floatingInput" class="label px-1 py-0 badge text-bg-input-bg" >Password</label>
                 <span  class="icon bi bi-key-fill"></span>
                 <span class=" eye-icon bi bi-eye-slash-fill"></span>
@@ -50,7 +50,7 @@
             <!-- Password :end -->
             <!--Confirm Password :start -->
             <div class="form-floating mb-3">
-                <input type="Password" class="form-control p-0" id="floatingInput" placeholder="Confirm Password" />
+                <input type="Password" class="form-control" id="floatingInput" placeholder="Confirm Password" />
                 <label for="floatingInput" class="label px-1 py-0 badge text-bg-input-bg" >Confirm Password</label>
                 <span  class="icon bi bi-key-fill"></span>
                 <span class=" eye-icon bi bi-eye-slash-fill"></span>
@@ -58,8 +58,8 @@
             <!-- Confirm Password :End -->
             <!-- button wrapper : start -->
             <div class="btn-wrapper d-flex flex-column gap-3 flex-sm-row justify-content-between">
-                <button type="button" class="btn btn-outline">Back to Sign In</button>
-                <button type="button" class="btn btn-bg">Register</button>
+                <button type="button" class="btn btn-outline-danger">Back to Sign In</button>
+                <button type="button" class="btn btn-danger">Register</button>
             </div>
             <!-- button wrapper : End -->
         </form>
@@ -87,7 +87,7 @@
 
 <!-- Landing Page -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid ">
+    <div class="container-fluid d-flex align-items-center">
         <div class="brand-container d-flex ">
             <figure class="dblogo">
                 <img src="../assets/images/db-icon.png" alt="dblogo">
@@ -99,6 +99,44 @@
             <a class="nav-link active" href="#">Booking History</a>
             <a class="nav-link active" href="#">Request History</a>
         </div>
+        <div>
+            <div class="d-grid gap-2 d-md-block">
+                <button class="btn btn-primary " type="button"><img src="../assets/images/search.png" alt="search"></button>
+                <button class="btn btn-primary " type="button"><img src="../assets/images/notification.png" alt="search"></button>
+                <button class="btn btn-primary " type="button"><img src="../assets/images/user.png" alt="search"></button>
+                
+            </div>
+        </div>
     </div>
 </nav>
 <!-- End: Landing Page -->
+
+
+
+
+
+
+
+
+
+
+
+
+variables---->
+
+// badges
+$reserved-bg : rgba(234,66,52,0.1);
+$available-bg: rgba(88,166,95,0.1);
+$booked-bg: rgba(40,128,252,0.1);
+
+// popover keys
+$keys: rgba(3, 24,55,0.5);
+
+// profile
+$profile-input-border: #E5E7EA; //days bg
+$save-btn-bg : #CACACA;
+$save-btn-text : #7D7D7D;
+$icon-bg: rgba(77,141,237,0.08);
+
+// filter dropdown
+$hover : rgba(40,128,252,0.5);
