@@ -2,13 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
 
-
-
 //icons 
 @import "../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
 // boootstrap functions
 @import "../node_modules/bootstrap/scss/functions";
-
 @import "../src/assets/scss/base/";
 
 // Required Bootstrap imports
@@ -27,13 +24,15 @@
 @import "../node_modules/bootstrap/scss/forms";
 @import "../node_modules/bootstrap/scss/buttons";
 @import "../node_modules/bootstrap/scss/navbar";
+@import "../node_modules/bootstrap/scss/offcanvas";
 
 
 // // custom styles
 @import "../src/assets/scss/utilities/";
 @import "../src/assets/scss/component/";
 @import "../src/assets/scss/layout/";
-
+// @import "../src/assets/scss/offcanvas/";
 
 
 // @import "../src/assets/scss/vendor/";
+
